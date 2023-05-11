@@ -455,6 +455,7 @@ ul {
 .checkbox-input:checked + .checkbox-label {
   border-color: var(--brand-color);
   background-color: var(--brand-color);
+  background-image: url(../images/icons.svg#icon-checked);
 }
 
 .checkbox-label::after {
