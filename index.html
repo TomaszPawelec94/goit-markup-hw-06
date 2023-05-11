@@ -132,19 +132,11 @@
               </div>
               <div>
                 <label class="agreement-form">
-                  <div class="checkbox">
-                    <div class="checkbox-control">
-                      <input
-                        class="checkbox-input"
-                        id="policy-agreement"
-                        type="checkbox"
-                        name="policy-agreement"
-                      />
-                      <label
-                        class="checkbox-label"
-                        for="policy-agreement"
-                      ></label>
-                    </div>
+                  <input class="hidden-checkbox" type="checkbox" />
+                  <div class="custom-checkbox">
+                    <svg class="custom-checkbox-img" height="16px" width="16px">
+                      <use href="./images/icons.svg#icon-checked"></use>
+                    </svg>
                   </div>
                   <span class="agreement-text"
                     >Oświadczam iż akceptuję <a href="#">Regulamin</a> i
@@ -488,11 +480,11 @@
           </div>
           <div>
             <form name="newsletter" class="newsletter">
-              <label>
-                <h3 class="footer-newsletter">Zapisz się do newslettera</h3>
+              <label class="footer-newsletter">
+                <p class="footer-newsletter">Zapisz się do newslettera</p>
                 <input
                   class="newsletter-input"
-                  type="mail"
+                  type="email"
                   name="mail"
                   placeholder="E-mail"
                 />
